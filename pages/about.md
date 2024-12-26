@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About Me
-headshot: /assets/img/headshot.webp
+headshot: /assets/img/Fall.jpg
 permalink: /about
 ---
 
