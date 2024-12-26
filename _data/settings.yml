@@ -7,11 +7,9 @@ logo: '/assets/img/Fall.jpg'
 # A brief introduction or mission statement that appears at the top of the
 # portfolio home page, above the project list. If you don't want one of the
 # intro_title or intro_text to show up, just set the appropriate value to null.
-intro_title: Personal Mission 10-word Summary
+intro_title: Personal Mission
 intro_text: |
-  A brief couple of sentences describing your personal mission statement goes
-  here. This is a great place to very succinctly tell a visitor what drives you
-  and what you're passionate about.
+  I hope to be able to empower people to make better decisions using data.
 
 # The link that is used for the resume button, below the intro text on the
 # portfolio home page. This link will also be used in the drop down menu. If
@@ -23,7 +21,6 @@ resume_link_title: Download Resume
 # link, if given).
 menu:
 - {name: 'Projects', url: ' '}
-- {name: 'Blog',     url: 'blog'}
 - {name: 'About',    url: 'about'}
 - {name: 'Contact',  url: 'contact'}
 
@@ -32,11 +29,9 @@ menu:
 
 social_label: Connect
 social:
-- {icon: 'twitter',   link: 'https://twitter.com/paululele'}
-- {icon: 'instagram', link: 'https://instagram.com/paululele'}
-- {icon: 'github',    link: 'https://github.com/lenpaul'}
-- {icon: 'linkedin',  link: 'https://linkedin.com/in/lenpaul'}
-- {icon: 'envelope',  link: 'mailto:mailto:l.nguyen.paul@gmail.com'}
+- {icon: 'github',    link: 'https://github.com/laivlys'}
+- {icon: 'linkedin',  link: 'https://www.linkedin.com/in/sylvia-lam-zining/'}
+- {icon: 'envelope',  link: 'lamsylviazining@gmail.com'}
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
 
