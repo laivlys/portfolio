@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 'NARVEND'
-subtitle: 'MUSA 5080'
 thumbnail: /assets/img/projects/proj-1/Narvend.png
 ---
 Authors: Claudia Low and Sylvia Lam
+Course: MUSA 5080 Public Policy Analytics
 
 This project is a creation of our very own dashboard: NARVEND. This dashboard is intended for use by public health officials in Mesa City, Arizona to identify and highlight areas afflicted with high rates of heroin overdose. With such overdose information succintly portrayed on NARVEND, health officials can strategically place vending machines to dispense free Narcan nasal spray in the most affected areas to help alleviate the overdose crisis.
 
