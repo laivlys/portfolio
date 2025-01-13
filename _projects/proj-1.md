@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'NARVEND
-MUSA 5080'
+title: 'NARVEND'
+subtitle: 'MUSA 5080'
 thumbnail: /assets/img/projects/proj-1/Narvend.png
 ---
 Authors: Claudia Low and Sylvia Lam
