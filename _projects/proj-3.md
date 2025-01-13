@@ -1,9 +1,13 @@
 ---
 layout: post
-title: 'Project Three'
-thumbnail: /assets/img/projects/proj-3/thumbnail.jpg
+title: 'Finding Whaley'
+thumbnail: /assets/img/projects/proj-3/blueWhale.png
 ---
 
-Donec condimentum a leo nec posuere. Vestibulum faucibus leo nec nisl varius vestibulum. Aenean vel quam semper, vestibulum augue at, rutrum ligula. Ut gravida, ex sit amet fringilla luctus, lorem quam mollis elit, et tristique leo urna non odio. Curabitur elementum viverra consequat. Vestibulum vitae dolor tristique, pellentesque metus non, suscipit nunc. Aenean id sem eu libero sodales dignissim eget quis quam. Phasellus quis lectus ac odio convallis luctus. Praesent sed ligula ipsum. Nullam ultricies nunc nec turpis porttitor elementum. Vestibulum vitae imperdiet elit, nec mattis magna. Vestibulum id neque nec turpis ullamcorper rutrum ac non ligula. Quisque nec pellentesque diam. Vestibulum at aliquam mi, vitae fringilla quam. Suspendisse potenti.
+Author: Sylvia Lam
+Course: MUSA 6110 Introduction to JavaScript
 
-{% include image.html url="http://www.gratisography.com" image="projects/proj-3/clothes.jpg" %}
+This engagement project allows users to input their whale sightings by double clicking on the map and filling in the pop-up. Users can upload pictures, videos, audio, text, date, and location in their whale sighting pop-ups. Users can also explore other whale sighting data points on the map using the location country filter and whale species filter.  
+
+The engagement project can be found here:
+{% include image.html url="https://laivlys.github.io/engagement-project/" image="projects/proj-3/Whale.png" %}
