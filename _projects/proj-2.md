@@ -1,11 +1,11 @@
 ---
 layout: post
 title: 'Cocoa Belt in Ghana'
-subtitle: 'MUSA 6320'
 thumbnail: /assets/img/projects/proj-2/CocoaBeans.webp
 ---
 
 Author: Sylvia Lam
+Course: MUSA 6320 Modelling Geographic Space
 
 This storymap analyzes the environmental conidtions in Ghana and the effects on cocoa production. As we face a changing climate, there is a need to look at potential challenges that may arise to better prepare and equip cocoa farmers to tackle these difficulties. 
 
