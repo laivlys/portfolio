@@ -289,10 +289,15 @@ h2::after {
 .project-thumbnail-wrapper {
   position: relative;
   display: block;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-thumbnail {
   width: 100%;
+  objetc-fit: cover;
 }
 
 .project-thumbnail-wrapper::before {
