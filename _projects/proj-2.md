@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'Cocoa Belt in Ghana
-MUSA 6320'
+title: 'Cocoa Belt in Ghana'
+subtitle: 'MUSA 6320'
 thumbnail: /assets/img/projects/proj-2/CocoaBeans.webp
 ---
 
