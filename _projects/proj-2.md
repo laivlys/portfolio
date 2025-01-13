@@ -14,4 +14,4 @@ This storymap was made using ArcGIS online and environmental analysis such as la
 Lastly, the current efforts in cocoa production in Ghana over the years have been laid out to track and identify agencies that have been active in this area of work. 
 
 The ArcGIS online storymap can be viewed here:
-{% include image.html url="https://storymaps.arcgis.com/stories/39b9d1f74c5d406888cc7b3a041468c0" image="assets/img/projects/proj-2/Cocoa.jpeg" %}
+{% include image.html url="https://storymaps.arcgis.com/stories/39b9d1f74c5d406888cc7b3a041468c0" image="projects/proj-2/Cocoa.jpeg" %}
