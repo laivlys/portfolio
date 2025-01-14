@@ -29,8 +29,4 @@ permalink: /about
     <p>Machine Learning | Remote Sensing | Cloud Computing | Web Development (HTML, CSS, JavaScript)</p>
   </div>
 
-  <div class="contact">
-    <p>You may contact me through my email if you have any questions or would like to connect!</p>
-  </div>
-
 </div>
