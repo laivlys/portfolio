@@ -276,6 +276,22 @@ h2::after {
   border-radius: 50%;
 }
 
+.university {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.program {
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.languages,
+.skills,
+.contact {
+  margin-top: 20px;
+}
+
 /* Project list on the home page */
 
 .project-link {
