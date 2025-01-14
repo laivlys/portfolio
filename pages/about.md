@@ -19,13 +19,14 @@ permalink: /about
   </div>
 
 
+
   <div class="languages">
     <p class="university">Languages:</p>
     <p>English | Mandarin 中文</p>
   </div>
 
   <div class="skills">
-    <p class="university">USkills:</p>
+    <p class="university">Skills:</p>
     <p>R | ArcGIS Online and Pro | Adobe Suite | Microsoft Office</p>
     <p>Machine Learning | Remote Sensing | Cloud Computing | Web Development (HTML, CSS, JavaScript)</p>
   </div>
