@@ -7,16 +7,16 @@ permalink: /about
 # Sylvia Lam
 
 <div class="about-section">
+  <div class="education">
+    <p class="university">University of Pennsylvania</p>
+    <p class="program">Master in Urban Spatial Analytics</p>
+  </div>
 
-  <p class="university">University of Pennsylvania</p>
-  <p class="program">Master in Urban Spatial Analytics</p>
-  
-
-  <p class="university">University of Virginia</p>
-  <p class="program">Bachelor in Urban and Environmental Planning with High Honors</p>
-  <p class="program">Minor in Global Sustainability</p>
-  
-
+  <div class="education">
+    <p class="university">University of Virginia</p>
+    <p class="program">Bachelor in Urban and Environmental Planning with High Honors</p>
+    <p class="program">Minor in Global Sustainability</p>
+  </div>
 
 
   <div class="languages">
