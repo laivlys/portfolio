@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Finding Whaley'
-thumbnail: /assets/img/projects/proj-3/blueWhale.png
+thumbnail: /assets/img/projects/proj-3/2.png
 ---
 
 Author: Sylvia Lam
