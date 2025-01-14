@@ -4,18 +4,29 @@ title: About Me
 headshot: /assets/img/Fall2.jpg
 permalink: /about
 ---
-
 # Sylvia Lam
 
-University of Pennsylvania
-Master in Urban Spatial Analytics
+<div class="about-section">
 
-Bachelor in Urban and Environmental Planning with High Honors 
-Minor in Global Sustainability
-University of Virginia
+  <p class="university">University of Pennsylvania</p>
+  <p class="program">Master in Urban Spatial Analytics</p>
 
-English | Mandarin 中文
-R | ArcGIS Online and Pro | Adobe Suite | Microsoft Office 
-Machine Learning | Remote Sensing | Cloud Computing | Web Development (HTML, CSS, JavaScript)
+  <p class="university">University of Virginia</p>
+  <p class="program">Bachelor in Urban and Environmental Planning with High Honors</p>
+  <p class="program">Minor in Global Sustainability</p>
+  
 
-You may contact me through my email if you have any questions or would like to connect!
+  <div class="languages">
+    <p>English | Mandarin 中文</p>
+  </div>
+
+  <div class="skills">
+    <p>R | ArcGIS Online and Pro | Adobe Suite | Microsoft Office</p>
+    <p>Machine Learning | Remote Sensing | Cloud Computing | Web Development (HTML, CSS, JavaScript)</p>
+  </div>
+
+  <div class="contact">
+    <p>You may contact me through my email if you have any questions or would like to connect!</p>
+  </div>
+
+</div>
