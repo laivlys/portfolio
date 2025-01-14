@@ -22,7 +22,6 @@ intro_text: |
 menu:
 - {name: 'Projects', url: ' '}
 - {name: 'About',    url: 'about'}
-- {name: 'Contact',  url: 'contact'}
 
 #-------------------------------
 # Contact Section
