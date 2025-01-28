@@ -30,9 +30,7 @@ social_label: Connect
 social:
 - {icon: 'github',    link: 'https://github.com/laivlys'}
 - {icon: 'linkedin',  link: 'https://www.linkedin.com/in/sylvia-lam-zining/'}
-- {icon: 'envelope',  link: 'lamsylviazining@gmail.com'}
-
-This portfolio theme was built by Mjumbe Poe using the DevTips Starter Kit as a foundation and following the tutorial by Travis Neilson over at DevTips. 
+- {icon: 'envelope',  link: 'lamsylviazining@gmail.com'} 
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
 
