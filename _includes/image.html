@@ -4,20 +4,22 @@
   {% endif %}
 
     <img src="{{ '/assets/img' | relative_url }}/{{ include.image }}" alt="{{ include.description }}" title="{{ include.description }}">
-    
-    <div class="overlay">
-      <div class="text">
-        {% if include.action %}
-          {{ include.action }}
-        {% else %}
-          View Demo
-        {% endif %}
 
-        {% if include.url %}
-          <i class="fa fa-arrow-right" aria-hidden="true"></i>
-        {% endif %}
+    {% if include.url or include.action %}
+      <div class="overlay">
+        <div class="text">
+          {% if include.action %}
+            {{ include.action }}
+          {% else %}
+            View Demo
+          {% endif %}
+
+          {% if include.url %}
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          {% endif %}
+        </div>
       </div>
-    </div>
+    {% endif %}
 
   {% if include.url %}
     </a>
