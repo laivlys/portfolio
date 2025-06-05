@@ -1,0 +1,152 @@
+/* === General Reset and Body === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #f2f2f7, #dcdce4);
+    color: #333;
+    line-height: 1.7;
+    padding-bottom: 4rem;
+}
+
+/* === Header (same as main site) === */
+.header_box {
+    background: #c0c0c0;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #5c4d91;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.logo:hover {
+    color: #6a5acd;
+}
+
+.nav_tabs a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav_tabs a:hover {
+    color: #6a5acd;
+}
+
+/* === Project Detail Section === */
+.project_detail {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 1.5rem;
+}
+
+.project_detail h1 {
+    font-size: 2rem;
+    color: #4b3f72;
+    margin-bottom: 0.5rem;
+}
+
+.project_detail h3 {
+    font-size: 1.1rem;
+    color: #6a5acd;
+    margin-bottom: 1rem;
+}
+
+.project_detail p {
+    margin-bottom: 1.2rem;
+    font-size: 1rem;
+    color: #444;
+}
+
+/* === Image Container === */
+.image-container {
+    width: 100%;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* === Links and Resources === */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul a {
+    display: inline-block;
+    margin: 0.5rem 0;
+    color: #5c4d91;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+ul a:hover {
+    color: #7ec8e3;
+}
+
+/* === Bottom Frame (same as main site) === */
+.bottom_frame {
+    background: #b0b0b0;
+    padding: 1rem 0;
+    margin-top: 3rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.bottom_container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.icon-link {
+    color: #333;
+    font-size: 1.2rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.icon-link:hover {
+    color: #6a5acd;
+    transform: scale(1.1);
+}
+
+/* === Responsive Text and Layout === */
+@media (max-width: 768px) {
+    .header_box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav_tabs {
+        margin-top: 0.5rem;
+    }
+
+    .project_detail {
+        padding: 0 1rem;
+    }
+}
