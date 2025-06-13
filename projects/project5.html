@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../css/projects.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+</head>
+
+<body>
+    <header class="header_box">
+        <div class="logo" onclick="window.location.href='../index.html'">Sylvia Lam</div>
+        <nav class="nav_tabs">
+            <a href="../index.html">Projects</a>
+            <a href="../about.html">About Me</a>
+        </nav>
+    </header>
+
+    <main class="project_detail">
+        <h1>Property Philly</h1>
+        <h3>Authors: Sylvia Lam, Wei Jing Ang, Yao Han, James, Ryan Swett</h3>
+        <p>The goal of the project was to create a dashboard for property owners and assessors to view predicted property prices in Philadelphia and to track property price changes within the past year.</p>
+
+        <div class="image-container">
+        <img src="../images/PotholeLabel.png" alt="Dashboard Screenshot">
+        </div>
+        
+        <p>This project required the use of Google Cloud Platform to store all the data that was used in our prediction model and data visualization. Google Workflow was utilized to automatically update our data every week to ensure that the data used was up to date and that the predictions generated and displayed on the dashboard was relevant. </p>
+
+        <p>Users could key in an address of a property they were interested in to gain more insights on the property price changes of that particular property that is shown in the pop-up. The dashboard also automatically zooms in on the neighborhood that the selected property is located in to display the distribution of property prices in that neighborhood on the graphs. In this way, the users are able to get a grasp of the property price of a specific property, at the neighborhood level, and at the city level to better understand any spatial patterns of current property prices and predicted changes in property prices.</p>
+
+        <p>The dashboard for this project can be found 
+            <a href="../links/PotholeReport.pdf" target="_blank">here</a>. 
+        </p>
+
+        <p>
+           The github repository with documentation can be found
+            <a href="https://nbviewer.org/github/laivlys/PotholeDetection" target="_blank">
+            here</a>.
+        </p>
+
+    </main>
+
+</body>
+
+</html>

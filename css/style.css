@@ -15,7 +15,7 @@ body {
 /* === Header === */
 .header_box {
     background: #c0c0c0;
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,8 +26,9 @@ body {
 }
 
 .logo {
-    font-size: 1.8rem;
-    font-weight: 700;
+    font-family: 'Melodrama', serif;
+    font-weight: 600;
+    font-size: 3rem;
     color: #5c4d91;
     cursor: pointer;
     transition: color 0.3s ease;
@@ -210,4 +211,12 @@ main.projects_container {
     .projects_grid {
         grid-template-columns: 1fr;
     }
+}
+
+@font-face {
+  font-family: 'Melodrama';
+  src: url('../fonts/Melodrama-Regular.woff2') format('woff2'),
+       url('../fonts/Melodrama-Regular.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
 }
