@@ -14,7 +14,7 @@
 
 <body>
     <header class="header_box">
-        <div class="logo" onclick="window.location.href='../index.html'">Sylvia Lam</div>
+        <div class="logo" onclick="window.location.href='../index.html'">SYLVIA LAM</div>
         <nav class="nav_tabs">
             <a href="../index.html">Projects</a>
             <a href="../about.html">About Me</a>
@@ -24,30 +24,25 @@
     <main class="project_detail">
         <h1>Cocoa Belt in Ghana</h1>
         <h3>Authors: Sylvia Lam</h3>
-        <p>This project utilizes AI to detect potholes on roads and to classify the road type based on the images taken to determine the urgency of maintenance of these potholes. With limited budget and resources, roads that are more dangerous due to higher traffic volume and higher speeds of the cars on the roads should be prioritized for pothole maintenance to uphold public safety.</p>
+        <p>This storymap analyzes the environmental conidtions in Ghana and the effects on cocoa production. As we face a changing climate, there is a need to look at potential challenges that may arise to better prepare and equip cocoa farmers to tackle these difficulties.</p>
 
-        <p>100 images were sourced from Google Earth Engine and downloaded to be labelled manually using the Labelme application. These labelled images were then used to fine-tune the Mask R-CNN model that was used for pothole detection. An example of a labelled image is as follows:</p>
+        <p>This storymap was made using ArcGIS online and environmental analysis such as land cover change using the Sentinel-2 Land Cover Explorer by Esri was carried using ArcGIS Pro. A vulnerability index was calculated to identify areas in Ghana that are most at risk in terms of the different environmental changes in temperatures, humidity, rainfall, and evapotranspiration. Lastly, the current efforts in cocoa production in Ghana over the years have been laid out to track and identify agencies that have been active in this area of work.</p>
 
-        <div class="image-container">
-        <img src="../images/PotholeLabel.png" alt="Dashboard Screenshot">
-        </div>
-        
-        <p>The model was also trained to classify the road types into three categories: local, collector, and arterial. Arterial roads being the busiest roads where cars were travelling at high speeds, collector roads connecting local to arterial roads, and local roads carrying cars to residential areas at lower speeds and at lower volumes. This frame of reference can be used to prioritze maintenance of busy roads to ensure public safety is upheld as compared to less busy roads. An example of the end product of the pothole detection and road classification tool is displayed below.</p>
+        <p>The Land Cover Change from 2017 to 2023 is an example of the raster analysis that was conducted and included in the ArcGIS Online Storymap. These are some of the raster images that were generated below:</p>
 
         <div class="image-container">
-        <img src="../images/PotholeandRoad.png" alt="Dashboard Screenshot">
+        <img src="../images/LandUse2017.png" alt="Dashboard Screenshot">
+        <p>Land Use Raster Analysis 2017</p>
         </div>
 
-        <p>The report for this project can be found 
-            <a href="../links/PotholeReport.pdf" target="_blank">here</a>. 
-        </p>
+        <div class="image-container">
+        <img src="../images/LandUse2023.png" alt="Dashboard Screenshot">
+        <p>Land Use Raster Analysis 2023</p>
+        </div>
 
-        <p>
-           The jupyter notebook for this project can be found 
-            <a href="https://nbviewer.org/github/laivlys/PotholeDetection" target="_blank">
-            here</a>.
+        <p>The ArcGIS online storymap can be viewed 
+            <a href="https://storymaps.arcgis.com/stories/39b9d1f74c5d406888cc7b3a041468c0" target="_blank">here</a>. 
         </p>
-
     </main>
 
 </body>

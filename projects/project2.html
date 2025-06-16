@@ -14,7 +14,7 @@
 
 <body>
     <header class="header_box">
-        <div class="logo" onclick="window.location.href='../index.html'">Sylvia Lam</div>
+        <div class="logo" onclick="window.location.href='../index.html'">SYLVIA LAM</div>
         <nav class="nav_tabs">
             <a href="../index.html">Projects</a>
             <a href="../about.html">About Me</a>
@@ -24,26 +24,26 @@
     <main class="project_detail">
         <h1>Pothole Detection and Road Classification</h1>
         <h3>Authors: Sylvia Lam</h3>
-        <p>This project utilizes AI to detect potholes on roads and to classify the road type based on the images taken to determine the urgency of maintenance of these potholes. With limited budget and resources, roads that are more dangerous due to higher traffic volume and higher speeds of the cars on the roads should be prioritized for pothole maintenance to uphold public safety.</p>
+        <p>This project leverages artificial intelligence to detect potholes on roadways and classify road types based on satellite imagery. The goal is to assess the urgency of road maintenance needs, particularly in the context of constrained budgets and limited resources. Roads with higher traffic volumes and vehicle speeds, such as arterial roads, pose greater safety risks and should therefore be prioritized for pothole repairs.</p>
 
-        <p>100 images were sourced from Google Earth Engine and downloaded to be labelled manually using the Labelme application. These labelled images were then used to fine-tune the Mask R-CNN model that was used for pothole detection. An example of a labelled image is as follows:</p>
+        <p>A dataset of 100 satellite images was sourced from Google Earth Engine and manually labeled using the Labelme application. These annotated images were used to fine-tune a Mask R-CNN model for pothole detection. An example of a labeled image is shown below:</p>
 
         <div class="image-container">
         <img src="../images/PotholeLabel.png" alt="Dashboard Screenshot">
         </div>
         
-        <p>The model was also trained to classify the road types into three categories: local, collector, and arterial. Arterial roads being the busiest roads where cars were travelling at high speeds, collector roads connecting local to arterial roads, and local roads carrying cars to residential areas at lower speeds and at lower volumes. This frame of reference can be used to prioritze maintenance of busy roads to ensure public safety is upheld as compared to less busy roads. An example of the end product of the pothole detection and road classification tool is displayed below.</p>
+        <p>In addition to detecting potholes, the model was trained to classify roads into three categories: local, collector, and arterial. Arterial roads represent high-speed, high-volume traffic corridors; collector roads connect local roads to arterials; and local roads serve lower-speed, lower-volume residential traffic. This classification system helps prioritize maintenance efforts, focusing on roads where pothole-related hazards have the greatest potential to impact public safety. An example of the final output from the pothole detection and road classification tool is provided below:</p>
 
         <div class="image-container">
         <img src="../images/PotholeandRoad.png" alt="Dashboard Screenshot">
         </div>
 
-        <p>The report for this project can be found 
+        <p>The full project report is available
             <a href="../links/PotholeReport.pdf" target="_blank">here</a>. 
         </p>
 
         <p>
-           The jupyter notebook for this project can be found 
+           The Jupyter Notebook containing the implementation details can be viewed 
             <a href="https://nbviewer.org/github/laivlys/PotholeDetection" target="_blank">
             here</a>.
         </p>

@@ -14,7 +14,7 @@
 
 <body>
     <header class="header_box">
-        <div class="logo" onclick="window.location.href='../index.html'">Sylvia Lam</div>
+        <div class="logo" onclick="window.location.href='../index.html'">SYLVIA LAM</div>
         <nav class="nav_tabs">
             <a href="../index.html">Projects</a>
             <a href="../about.html">About Me</a>
@@ -24,25 +24,21 @@
     <main class="project_detail">
         <h1>E-Scooter Potential in Petersburg</h1>
         <h3>Authors: Sylvia Lam, Emily Branch, Cade Johnson</h3>
-        <p>We were tasked to explore the potential of e-scooters to be deployed in the City of Petersburg, Virginia. The Department of Transportation in Petersburg were approached by an e-scooter company called Bird that wanted to deploy their e-scooters in the city. As such, we worked closely with the Department of Transportation in Petersburg to determine the pros and cons of introducing e-scooters as a last mile/first mile solution in their city.</p>
+        <p>This project examined the feasibility of deploying e-scooters in the City of Petersburg, Virginia, as a potential first-mile and last-mile mobility solution. The initiative was prompted by a proposal from the micromobility company Bird, which expressed interest in launching its e-scooter services in Petersburg. In collaboration with the Department of Transportation in the City of Peteresburg, our team conducted a comprehensive assessment to determine the benefits and challenges of such an implementation.</p> 
+        
+        <p>Our analysis focused on core urban mobility objectives, including equitable access, multimodal connectivity, and public safety. Specific considerations included the spatial distribution of e-scooter docking areas, potential ridership patterns, and integration with existing public transit networks. We sought to understand whether e-scooters could enhance transportation accessibility in a city where car dependency and limited public transit options present ongoing challenges.</p>
+
+        <p>To support data-driven decision-making, we developed an interactive dashboard for the Department of Transportation. This tool visualizes the geospatial coverage of proposed e-scooter deployment zones, prioritizing high-demand destinations such as transit stops, educational institutions, and civic activity centers. The platform helps city officials evaluate whether micromobility infrastructure could bridge critical mobility gaps in the transportation network.</p>
 
         <div class="image-container">
-        <img src="../images/PotholeLabel.png" alt="Dashboard Screenshot">
+        <img src="../images/BirdDashboard.png" alt="Dashboard Screenshot">
         </div>
-        
-        <p>This project required the use of Google Cloud Platform to store all the data that was used in our prediction model and data visualization. Google Workflow was utilized to automatically update our data every week to ensure that the data used was up to date and that the predictions generated and displayed on the dashboard was relevant. </p>
 
-        <p>Users could key in an address of a property they were interested in to gain more insights on the property price changes of that particular property that is shown in the pop-up. The dashboard also automatically zooms in on the neighborhood that the selected property is located in to display the distribution of property prices in that neighborhood on the graphs. In this way, the users are able to get a grasp of the property price of a specific property, at the neighborhood level, and at the city level to better understand any spatial patterns of current property prices and predicted changes in property prices.</p>
+        <p>By layering spatial data with civic infrastructure indicators, the dashboard enables stakeholders to assess coverage adequacy, identify service deserts, and plan for multimodal integration. This is critical for determining whether e-scooters can play a meaningful role in solving the first-mile and last-mile problem in Petersburg’s urban mobility landscape.</p>
 
-        <p>The dashboard for this project can be found 
-            <a href="../links/PotholeReport.pdf" target="_blank">here</a>. 
-        </p>
+        <p>Recognizing the importance of equitable micromobility access, we developed a custom Transit Dependency Inference Model. This model combines demographic and socioeconomic data, including household income levels and vehicle ownership rates, to identify communities most reliant on alternative modes of transportation. Census block groups with transit dependency scores below 30 percent were classified as equity priority zones. These areas were flagged for enhanced e-scooter coverage to help ensure that underserved populations benefit from the proposed micromobility system.</p> <p>To guide equitable implementation, we produced a <a href="../links/Petersburg_Micromobility_Policy_Suggestions.pdf" target="_blank">policy recommendation report</a> for city officials. This report outlines strategic placement of docking stations, affordability measures, and best practices for ensuring inclusive access to emerging transportation technologies.</p>
 
-        <p>
-           The github repository with documentation can be found
-            <a href="https://nbviewer.org/github/laivlys/PotholeDetection" target="_blank">
-            here</a>.
-        </p>
+        <p>The complete methodology for our spatial coverage analysis and the Transit Dependency Inference Model can be accessed <a href="../links/Micromobility_Methadology.html" target="_blank">here</a>. This document details our use of GIS tools, data sourcing, and criteria for prioritizing deployment zones based on urban planning principles and transportation equity.</p> <p>The final project report, which includes additional context, technical documentation, and implementation strategies, is available <a href="../links/Petersburg_Micromobility_Report.pdf" target="_blank">here</a>.</p>
 
     </main>
 

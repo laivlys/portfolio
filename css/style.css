@@ -26,9 +26,9 @@ body {
 }
 
 .logo {
-    font-family: 'Melodrama', serif;
-    font-weight: 600;
-    font-size: 3rem;
+    font-family: 'Chillax', serif;
+    font-weight: 500;
+    font-size: 2.5rem;
     color: #5c4d91;
     cursor: pointer;
     transition: color 0.3s ease;
@@ -214,9 +214,9 @@ main.projects_container {
 }
 
 @font-face {
-  font-family: 'Melodrama';
-  src: url('../fonts/Melodrama-Regular.woff2') format('woff2'),
-       url('../fonts/Melodrama-Regular.woff') format('woff');
-  font-weight: 500;
+  font-family: 'Chillax';
+  src: url('../fonts/Chillax-Regular.woff2') format('woff2'),
+       url('../fonts/Chillax-Regular.woff') format('woff');
+  font-weight: 400;
   font-style: normal;
 }

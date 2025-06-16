@@ -14,7 +14,7 @@
 
 <body>
     <header class="header_box">
-        <div class="logo" onclick="window.location.href='../index.html'">Sylvia Lam</div>
+        <div class="logo" onclick="window.location.href='../index.html'">SYLVIA LAM</div>
         <nav class="nav_tabs">
             <a href="../index.html">Projects</a>
             <a href="../about.html">About Me</a>
@@ -23,25 +23,31 @@
 
     <main class="project_detail">
         <h1>Property Philly</h1>
-        <h3>Authors: Sylvia Lam, Wei Jing Ang, Yao Han, James, Ryan Swett</h3>
-        <p>The goal of the project was to create a dashboard for property owners and assessors to view predicted property prices in Philadelphia and to track property price changes within the past year.</p>
+        <h3>Authors: Sylvia Lam, Wei Jing Ang, Yao Han Xu, James To, Ryan Swett</h3>
+        <p>This project aimed to develop an interactive, cloud-native dashboard to assist property owners, assessors, and urban analysts in visualizing and understanding predicted property values across Philadelphia. The platform enables users to explore historical price trends and forecasted valuations at the parcel, neighborhood, and citywide scale.</p>
 
         <div class="image-container">
-        <img src="../images/PotholeLabel.png" alt="Dashboard Screenshot">
+        <img src="../images/PropertyPhilly.png" alt="Dashboard Screenshot">
         </div>
         
-        <p>This project required the use of Google Cloud Platform to store all the data that was used in our prediction model and data visualization. Google Workflow was utilized to automatically update our data every week to ensure that the data used was up to date and that the predictions generated and displayed on the dashboard was relevant. </p>
+        <p>The system is powered by a fully automated data pipeline built on Google Cloud Platform. This architecture allows for seamless ingestion, transformation, and storage of publicly available property datasets. The cloud infrastructure includes the following components:</p> <ul> <li><strong>Google Cloud Functions</strong>: Executes scheduled Python scripts for data extraction and preprocessing.</li> <li><strong>Google Cloud Workflows</strong>: Coordinates the sequence of pipeline tasks using an event-driven model.</li> <li><strong>BigQuery</strong>: Serves as the central data warehouse where spatial and tabular queries are performed using SQL.</li> <li><strong>Cloud Storage</strong>: Hosts vector tiles and GeoJSON outputs that are served to the web interface.</li> </ul> 
+        
+        <p>The predictive engine is based on a Random Forest regression model. Processed results are exposed through a custom API that supports the visualization of both spatial data and statistical summaries.</p>
 
         <p>Users could key in an address of a property they were interested in to gain more insights on the property price changes of that particular property that is shown in the pop-up. The dashboard also automatically zooms in on the neighborhood that the selected property is located in to display the distribution of property prices in that neighborhood on the graphs. In this way, the users are able to get a grasp of the property price of a specific property, at the neighborhood level, and at the city level to better understand any spatial patterns of current property prices and predicted changes in property prices.</p>
 
-        <p>The dashboard for this project can be found 
-            <a href="../links/PotholeReport.pdf" target="_blank">here</a>. 
-        </p>
+        <p>The web interface is built using vanilla JavaScript. Spatial data layers are rendered using Mapbox vector tiles. The interface communicates with the backend through asynchronous API calls, which serve JSON responses to populate charts and map layers in real time.</p>
 
-        <p>
-           The github repository with documentation can be found
-            <a href="https://nbviewer.org/github/laivlys/PotholeDetection" target="_blank">
-            here</a>.
+        <p>Key functionality includes:</p> <ul> <li><strong>Address Search</strong>: Users can input a specific address to retrieve detailed property information.</li> <li><strong>Intelligent Map Navigation</strong>: Upon address selection, the dashboard automatically zooms into the property's neighborhood and displays relevant price distributions and bar graphs.</li> <li><strong>Multi-Scale Visualization</strong>: Users can observe price patterns at various scales, allowing for deeper insights into localized trends and broader market behavior.</li> </ul>
+
+        <div class="image-container">
+        <img src="../images/PropertyPhillyNeighborhood.png" alt="Dashboard Screenshot">
+        </div>
+
+        <p>The live dashboard can be accessed using the link below. It showcases the integration of spatial data science, cloud infrastructure, and machine learning for public-facing property analytics:</p> <p><a href="https://weitzman-musa-geocloud.github.io/s25-team5-cama/" target="_blank">Philadelphia Property Valuation Dashboard</a></p>
+
+        <p>The github repository with a more detailed documentation for the methadology of our project can be found
+            <a href="https://github.com/Weitzman-MUSA-GeoCloud/s25-team5-cama" target="_blank">here.</a>
         </p>
 
     </main>
