@@ -14,12 +14,28 @@
 
 <body>
     <header class="header_box">
-        <div class="logo" onclick="window.location.href='/index.html'">SYLVIA LAM</div>
-        <nav class="nav_tabs">
-            <a href="/index.html">Projects</a>
-            <a href="/html/about.html">About Me</a>
-        </nav>
+    <div class="logo" onclick="goToHome()">SYLVIA LAM</div>
+    <nav class="nav_tabs">
+        <a href="/index.html" onclick="goToHome(event)">Projects</a>
+        <a href="/html/about.html">About Me</a>
+    </nav>
     </header>
+
+    <script>
+    function isOnHomePage() {
+        const path = window.location.pathname;
+        return path === "/index.html" || path === "/";
+    }
+
+    function goToHome(event) {
+        if (event) event.preventDefault(); // prevent <a> default behavior
+        if (isOnHomePage()) {
+            window.location.reload();
+        } else {
+            window.location.href = "/index.html";
+        }
+    }
+    </script>
 
     <main class="projects_container">
         <h1>Projects</h1>
