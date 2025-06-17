@@ -16,23 +16,23 @@
     <header class="header_box">
     <div class="logo" onclick="goToHome()">SYLVIA LAM</div>
     <nav class="nav_tabs">
-        <a href="/index.html" onclick="goToHome(event)">Projects</a>
-        <a href="/html/about.html">About Me</a>
+        <a href="/portfolio/index.html" onclick="goToHome(event)">Projects</a>
+        <a href="/portfolio/html/about.html">About Me</a>
     </nav>
     </header>
 
     <script>
     function isOnHomePage() {
         const path = window.location.pathname;
-        return path === "/index.html" || path === "/";
+        return path === "/portfolio/" || path === "/portfolio/index.html";
     }
-
+    
     function goToHome(event) {
-        if (event) event.preventDefault(); // prevent <a> default behavior
+        if (event) event.preventDefault(); // stop link default behavior
         if (isOnHomePage()) {
             window.location.reload();
         } else {
-            window.location.href = "/index.html";
+            window.location.href = "/portfolio/index.html";
         }
     }
     </script>
