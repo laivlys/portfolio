@@ -5,18 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="/portfolio/css/about.css">
 
 </head>
 
 <body>
     <header class="header_box">
-        <div class="logo" onclick="window.location.href='../index.html'">SYLVIA LAM</div>
-        <nav class="nav_tabs">
-            <a href="index.html">Projects</a>
-            <a href="html/about.html">About Me</a>
-        </nav>
+    <div class="logo" onclick="goToHome()">SYLVIA LAM</div>
+    <nav class="nav_tabs">
+        <a href="/portfolio/index.html" onclick="goToHome(event)">Projects</a>
+        <a href="/portfolio/html/about.html" onclick="goToAbout(event)">About Me</a>
+    </nav>
     </header>
+
+    <script>
+    function isOnHomePage() {
+        const path = window.location.pathname;
+        return path === "/portfolio/" || path === "/portfolio/index.html";
+    }
+
+    function isOnAboutPage() {
+        const path = window.location.pathname;
+        return path === "/portfolio/html/about.html";
+    }
+
+    function goToHome(event) {
+        if (event) event.preventDefault();
+        if (isOnHomePage()) {
+            window.location.reload();
+        } else {
+            window.location.href = "/portfolio/index.html";
+        }
+    }
+
+    function goToAbout(event) {
+        if (event) event.preventDefault();
+        if (isOnAboutPage()) {
+            window.location.reload();
+        } else {
+            window.location.href = "/portfolio/html/about.html";
+        }
+    }
+    </script>
 
     <main class="about_container">
     <section class="about_intro">
