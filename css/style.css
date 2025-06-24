@@ -14,7 +14,7 @@ body {
 
 /* === Header === */
 .header_box {
-    background: #c0c0c0;
+    background: #252525;
     padding: 0.5rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -26,10 +26,10 @@ body {
 }
 
 .logo {
-    font-family: 'Chillax', serif;
-    font-weight: 500;
+    font-family: 'Segoe UI', serif;
+    font-weight: 300;
     font-size: 2.5rem;
-    color: #5c4d91;
+    color: #ada0df;
     cursor: pointer;
     transition: color 0.3s ease;
 }
@@ -39,7 +39,7 @@ body {
 }
 
 .nav_tabs a {
-    color: #333;
+    color: #faf9f6;
     text-decoration: none;
     margin-left: 1.5rem;
     font-weight: 500;
